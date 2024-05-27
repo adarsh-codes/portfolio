@@ -44,9 +44,7 @@ const Herosection = () => {
             <button onClick={()=>{
               
             }} className="px-6 py-3 w-full sm:w-fit text-black rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200">Hire Me</button>
-            <button className="px-1 py-1 w-full sm:w-fit mt-3 bg-gradient-to-r rounded-full from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
-            </button>
+           
           </div>
         </motion.div>
         <motion.div initial={{opacity:0,scale:0.5}} animate={{opacity:1,scale:1}} transition={{duration:0.5}} className="col-span-5 place-self-center mt-4 lg:mt-0">
