@@ -41,9 +41,7 @@ const Herosection = () => {
           try my best to get back to you!
           </p>
           <div>
-            <button onClick={()=>{
-              
-            }} className="px-6 py-3 w-full sm:w-fit text-black rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200">Hire Me</button>
+            <a href="#contact" className="px-6 py-3 w-full sm:w-fit text-black rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200">Hire Me</a>
            
           </div>
         </motion.div>
